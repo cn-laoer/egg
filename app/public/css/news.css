@@ -1,0 +1,17 @@
+.news-view {
+    width: 100%;
+    height: auto;
+    background: rosybrown;
+}
+.view {
+    border: 1px solid #963963;
+}
+.item {
+    height: 30px;
+    color: greenyellow;
+}
+.item a,.item span {
+    text-decoration: none;
+    width: 200px;
+    display: inline-block;
+} 

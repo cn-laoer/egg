@@ -2,7 +2,9 @@ const Service = require('egg').Service;
 
 class ReactService extends Service {
     async list() {
-        const msg = await this.app.mysql.select('react');
+        const msg = await this.app.mysql.select('react',{
+            where: {status:1}
+        });
         let dataList = {
             msg
         };

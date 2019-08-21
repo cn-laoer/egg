@@ -1619,3 +1619,28 @@ hostname: PC-201803121836
 2019-08-20 16:09:03,959 WARN 7012 [agent:development] reload worker because C:\Users\Administrator\Desktop\egg\egg-blaoer\app\service\react.js change
 2019-08-20 16:09:03,744 INFO 7012 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\app\\service\\react.js","stat":{"dev":833889,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":1688849861405645,"size":3272,"atimeMs":1566180601618,"mtimeMs":1566288543033.8188,"ctimeMs":1566288543033.8188,"birthtimeMs":1566180601618.0933,"atime":"2019-08-19T02:10:01.618Z","mtime":"2019-08-20T08:09:03.034Z","ctime":"2019-08-20T08:09:03.034Z","birthtime":"2019-08-19T02:10:01.618Z"},"remove":false,"isDirectory":false,"isFile":true}
 2019-08-20 16:09:09,791 WARN 7012 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-08-20 17:37:31,391 INFO 7476 [egg:logger] init all loggers with options: {"dir":"E:\\blaoer\\egg\\logs\\egg-blaoer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-blaoer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-08-20 17:37:31,451 INFO 7476 [egg:core] dump config after load, 55ms
+2019-08-20 17:37:31,531 INFO 7476 [egg-watcher] Start watching: ["E:\\blaoer\\egg\\app","E:\\blaoer\\egg\\config","E:\\blaoer\\egg\\mocks","E:\\blaoer\\egg\\mocks_proxy","E:\\blaoer\\egg\\app.js"]
+2019-08-20 17:37:31,531 INFO 7476 [egg-watcher] Start watching: "E:\\blaoer\\egg\\app"
+2019-08-20 17:37:31,532 INFO 7476 [egg-watcher] Start watching: "E:\\blaoer\\egg\\config"
+2019-08-20 17:37:31,532 INFO 7476 [egg-watcher] Start watching: "E:\\blaoer\\egg\\mocks"
+2019-08-20 17:37:31,532 INFO 7476 [egg-watcher] Start watching: "E:\\blaoer\\egg\\mocks_proxy"
+2019-08-20 17:37:31,532 INFO 7476 [egg-watcher] Start watching: "E:\\blaoer\\egg\\app.js"
+2019-08-20 17:37:31,533 INFO 7476 [egg-watcher:agent] watcher start success
+2019-08-20 17:37:31,603 INFO 7476 [egg:core] dump config after ready, 17ms
+2019-08-20 17:37:32,964 INFO 7476 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"E:\\blaoer\\egg\\app\\public","stat":{"dev":1241895195,"mode":16822,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":562949953467564,"size":0,"atimeMs":1566292466401.1526,"mtimeMs":1566292466401.1526,"ctimeMs":1566292466401.1526,"birthtimeMs":1566292466385.1035,"atime":"2019-08-20T09:14:26.401Z","mtime":"2019-08-20T09:14:26.401Z","ctime":"2019-08-20T09:14:26.401Z","birthtime":"2019-08-20T09:14:26.385Z"},"remove":false,"isDirectory":true,"isFile":false}
+2019-08-21 09:09:59,654 INFO 6640 [egg:logger] init all loggers with options: {"dir":"E:\\blaoer\\egg\\logs\\egg-blaoer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-blaoer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-08-21 09:09:59,685 INFO 6640 [egg:core] dump config after load, 16ms
+2019-08-21 09:09:59,810 INFO 6640 [egg-watcher] Start watching: ["E:\\blaoer\\egg\\app","E:\\blaoer\\egg\\config","E:\\blaoer\\egg\\mocks","E:\\blaoer\\egg\\mocks_proxy","E:\\blaoer\\egg\\app.js"]
+2019-08-21 09:09:59,810 INFO 6640 [egg-watcher] Start watching: "E:\\blaoer\\egg\\app"
+2019-08-21 09:09:59,810 INFO 6640 [egg-watcher] Start watching: "E:\\blaoer\\egg\\config"
+2019-08-21 09:09:59,810 INFO 6640 [egg-watcher] Start watching: "E:\\blaoer\\egg\\mocks"
+2019-08-21 09:09:59,810 INFO 6640 [egg-watcher] Start watching: "E:\\blaoer\\egg\\mocks_proxy"
+2019-08-21 09:09:59,810 INFO 6640 [egg-watcher] Start watching: "E:\\blaoer\\egg\\app.js"
+2019-08-21 09:09:59,810 INFO 6640 [egg-watcher:agent] watcher start success
+2019-08-21 09:09:59,841 INFO 6640 [egg:core] dump config after ready, 15ms
+2019-08-21 09:46:47,740 WARN 6640 [agent:development] reload worker because E:\blaoer\egg\app\service\react.js change
+2019-08-21 09:46:47,523 INFO 6640 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"E:\\blaoer\\egg\\app\\service\\react.js","stat":{"dev":1241895195,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":562949953467571,"size":3316,"atimeMs":1566292466424.191,"mtimeMs":1566352007520.6687,"ctimeMs":1566352007520.6687,"birthtimeMs":1566292466424.191,"atime":"2019-08-20T09:14:26.424Z","mtime":"2019-08-21T01:46:47.521Z","ctime":"2019-08-21T01:46:47.521Z","birthtime":"2019-08-20T09:14:26.424Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-21 09:46:47,528 INFO 6640 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"E:\\blaoer\\egg\\app\\service\\react.js","stat":{"dev":1241895195,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":562949953467571,"size":3316,"atimeMs":1566292466424.191,"mtimeMs":1566352007520.6687,"ctimeMs":1566352007520.6687,"birthtimeMs":1566292466424.191,"atime":"2019-08-20T09:14:26.424Z","mtime":"2019-08-21T01:46:47.521Z","ctime":"2019-08-21T01:46:47.521Z","birthtime":"2019-08-20T09:14:26.424Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-08-21 09:46:48,905 WARN 6640 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer

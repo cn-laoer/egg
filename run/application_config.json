@@ -87,28 +87,28 @@
     "onerror": {
       "errorPageUrl": "",
       "appErrorFilter": null,
-      "templatePath": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
+      "templatePath": "E:\\blaoer\\egg\\node_modules\\egg-onerror\\lib\\onerror_page.mustache"
     },
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-session\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-security\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-jsonp\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-onerror\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-i18n\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-watcher\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-schedule\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-multipart\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-development\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-logrotator\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-static\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-view\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-view-nunjucks\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-mysql\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-cors\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg\\config\\locales",
-        "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\config\\locales"
+        "E:\\blaoer\\egg\\node_modules\\egg-session\\config\\locales",
+        "E:\\blaoer\\egg\\node_modules\\egg-security\\config\\locales",
+        "E:\\blaoer\\egg\\node_modules\\egg-jsonp\\config\\locales",
+        "E:\\blaoer\\egg\\node_modules\\egg-onerror\\config\\locales",
+        "E:\\blaoer\\egg\\node_modules\\egg-i18n\\config\\locales",
+        "E:\\blaoer\\egg\\node_modules\\egg-watcher\\config\\locales",
+        "E:\\blaoer\\egg\\node_modules\\egg-schedule\\config\\locales",
+        "E:\\blaoer\\egg\\node_modules\\egg-multipart\\config\\locales",
+        "E:\\blaoer\\egg\\node_modules\\egg-development\\config\\locales",
+        "E:\\blaoer\\egg\\node_modules\\egg-logrotator\\config\\locales",
+        "E:\\blaoer\\egg\\node_modules\\egg-static\\config\\locales",
+        "E:\\blaoer\\egg\\node_modules\\egg-view\\config\\locales",
+        "E:\\blaoer\\egg\\node_modules\\egg-view-nunjucks\\config\\locales",
+        "E:\\blaoer\\egg\\node_modules\\egg-mysql\\config\\locales",
+        "E:\\blaoer\\egg\\node_modules\\egg-cors\\config\\locales",
+        "E:\\blaoer\\egg\\node_modules\\egg\\config\\locales",
+        "E:\\blaoer\\egg\\config\\locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -119,8 +119,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "E:\\blaoer\\egg\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "E:\\blaoer\\egg\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "customLogger": {
@@ -166,7 +166,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\app\\public",
+      "dir": "E:\\blaoer\\egg\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -174,7 +174,7 @@
     },
     "view": {
       "root": [
-        "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\app\\view"
+        "E:\\blaoer\\egg\\app\\view"
       ],
       "cache": false,
       "defaultExtension": ".html",
@@ -239,9 +239,9 @@
         "test": "egg-bin test"
       }
     },
-    "baseDir": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer",
+    "baseDir": "E:\\blaoer\\egg",
     "HOME": "C:\\Users\\1398",
-    "rundir": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\run",
+    "rundir": "E:\\blaoer\\egg\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -272,7 +272,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\logs\\egg-blaoer",
+      "dir": "E:\\blaoer\\egg\\logs\\egg-blaoer",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -377,8 +377,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-session",
+      "from": "E:\\blaoer\\egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\blaoer\\egg\\node_modules\\egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -390,8 +390,8 @@
         "session"
       ],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-security",
+      "from": "E:\\blaoer\\egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\blaoer\\egg\\node_modules\\egg-security",
       "version": "2.5.0"
     },
     "jsonp": {
@@ -403,8 +403,8 @@
         "security"
       ],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-jsonp",
+      "from": "E:\\blaoer\\egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\blaoer\\egg\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -416,8 +416,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-onerror",
+      "from": "E:\\blaoer\\egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\blaoer\\egg\\node_modules\\egg-onerror",
       "version": "2.1.0"
     },
     "i18n": {
@@ -427,8 +427,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-i18n",
+      "from": "E:\\blaoer\\egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\blaoer\\egg\\node_modules\\egg-i18n",
       "version": "2.1.1"
     },
     "watcher": {
@@ -438,8 +438,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-watcher",
+      "from": "E:\\blaoer\\egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\blaoer\\egg\\node_modules\\egg-watcher",
       "version": "3.1.0"
     },
     "schedule": {
@@ -449,8 +449,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-schedule",
+      "from": "E:\\blaoer\\egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\blaoer\\egg\\node_modules\\egg-schedule",
       "version": "3.6.4"
     },
     "multipart": {
@@ -462,8 +462,8 @@
         "schedule"
       ],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-multipart",
+      "from": "E:\\blaoer\\egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\blaoer\\egg\\node_modules\\egg-multipart",
       "version": "2.7.1"
     },
     "development": {
@@ -477,8 +477,8 @@
       "env": [
         "local"
       ],
-      "from": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-development",
+      "from": "E:\\blaoer\\egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\blaoer\\egg\\node_modules\\egg-development",
       "version": "2.4.3"
     },
     "logrotator": {
@@ -490,8 +490,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-logrotator",
+      "from": "E:\\blaoer\\egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\blaoer\\egg\\node_modules\\egg-logrotator",
       "version": "3.1.0"
     },
     "static": {
@@ -501,8 +501,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-static",
+      "from": "E:\\blaoer\\egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\blaoer\\egg\\node_modules\\egg-static",
       "version": "2.2.0"
     },
     "view": {
@@ -512,8 +512,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-view",
+      "from": "E:\\blaoer\\egg\\node_modules\\egg\\config\\plugin.js",
+      "path": "E:\\blaoer\\egg\\node_modules\\egg-view",
       "version": "2.1.2"
     },
     "nunjucks": {
@@ -526,8 +526,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-view-nunjucks",
+      "from": "E:\\blaoer\\egg\\config\\plugin.js",
+      "path": "E:\\blaoer\\egg\\node_modules\\egg-view-nunjucks",
       "version": "2.2.0"
     },
     "mysql": {
@@ -537,8 +537,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-mysql",
+      "from": "E:\\blaoer\\egg\\config\\plugin.js",
+      "path": "E:\\blaoer\\egg\\node_modules\\egg-mysql",
       "version": "3.0.0"
     },
     "cors": {
@@ -548,8 +548,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\config\\plugin.js",
-      "path": "C:\\Users\\Administrator\\Desktop\\egg\\egg-blaoer\\node_modules\\egg-cors",
+      "from": "E:\\blaoer\\egg\\config\\plugin.js",
+      "path": "E:\\blaoer\\egg\\node_modules\\egg-cors",
       "version": "2.2.0"
     }
   }

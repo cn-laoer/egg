@@ -4578,3 +4578,34 @@ hostname: PC-201803121836
 2019-08-21 09:46:48,873 INFO 10172 [egg-watcher:application] watcher start success
 2019-08-21 09:46:48,888 INFO 10172 [egg-mysql] instance[0] status OK, rds currentTime: Wed Aug 21 2019 09:46:48 GMT+0800 (中国标准时间)
 2019-08-21 09:46:48,888 INFO 10172 [egg:core] dump config after ready, 0ms
+2019-08-22 09:31:28,594 INFO 6184 [egg:logger] init all loggers with options: {"dir":"E:\\blaoer\\egg\\logs\\egg-blaoer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-blaoer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-22 09:31:28,625 INFO 6184 [egg-multipart] stream mode enable
+2019-08-22 09:31:28,626 INFO 6184 [egg-mysql] connecting root@139.224.232.41:8066/blaoer
+2019-08-22 09:31:28,714 INFO 6184 [egg-static] starting static serve /public/ -> E:\blaoer\egg\app\public
+2019-08-22 09:31:28,732 INFO 6184 [egg-security] use methodnoallow middleware
+2019-08-22 09:31:28,732 INFO 6184 [egg-security] use noopen middleware
+2019-08-22 09:31:28,733 INFO 6184 [egg-security] use nosniff middleware
+2019-08-22 09:31:28,733 INFO 6184 [egg-security] use xssProtection middleware
+2019-08-22 09:31:28,734 INFO 6184 [egg-security] use xframe middleware
+2019-08-22 09:31:28,734 INFO 6184 [egg-security] use dta middleware
+2019-08-22 09:31:28,734 INFO 6184 [egg-security] compose 6 middlewares into one security middleware
+2019-08-22 09:31:28,747 INFO 6184 [egg:core] dump config after load, 6ms
+2019-08-22 09:31:28,764 INFO 6184 [egg-watcher:application] watcher start success
+2019-08-22 09:31:28,872 INFO 6184 [egg-mysql] instance[0] status OK, rds currentTime: Thu Aug 22 2019 01:32:14 GMT+0800 (中国标准时间)
+2019-08-22 09:31:28,881 INFO 6184 [egg:core] dump config after ready, 7ms
+2019-08-22 09:31:51,327 INFO 6184 [egg-view-nunjucks] loading templates from ["E:\\blaoer\\egg\\app\\view"]
+2019-08-22 13:44:14,658 INFO 11228 [egg:logger] init all loggers with options: {"dir":"E:\\blaoer\\egg\\logs\\egg-blaoer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-blaoer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-08-22 13:44:14,690 INFO 11228 [egg-multipart] stream mode enable
+2019-08-22 13:44:14,691 INFO 11228 [egg-mysql] connecting root@139.224.232.41:8066/blaoer
+2019-08-22 13:44:14,793 INFO 11228 [egg-static] starting static serve /public/ -> E:\blaoer\egg\app\public
+2019-08-22 13:44:14,796 INFO 11228 [egg-security] use methodnoallow middleware
+2019-08-22 13:44:14,797 INFO 11228 [egg-security] use noopen middleware
+2019-08-22 13:44:14,797 INFO 11228 [egg-security] use nosniff middleware
+2019-08-22 13:44:14,798 INFO 11228 [egg-security] use xssProtection middleware
+2019-08-22 13:44:14,798 INFO 11228 [egg-security] use xframe middleware
+2019-08-22 13:44:14,799 INFO 11228 [egg-security] use dta middleware
+2019-08-22 13:44:14,799 INFO 11228 [egg-security] compose 6 middlewares into one security middleware
+2019-08-22 13:44:14,812 INFO 11228 [egg:core] dump config after load, 6ms
+2019-08-22 13:44:14,829 INFO 11228 [egg-watcher:application] watcher start success
+2019-08-22 13:44:14,952 INFO 11228 [egg-mysql] instance[0] status OK, rds currentTime: Thu Aug 22 2019 05:45:00 GMT+0800 (中国标准时间)
+2019-08-22 13:44:14,967 INFO 11228 [egg:core] dump config after ready, 10ms

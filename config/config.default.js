@@ -21,12 +21,25 @@ exports.robot = {
     ]
 };
 // mysql
+// localhost
+// exports.mysql = {
+//     client: {
+//         host: 'localhost',
+//         port: '3306',
+//         user: 'root',
+//         password: 'admin',
+//         database: 'blaoer',
+//     },
+//     app: true,
+//     agent: false
+// };
+// on line
 exports.mysql = {
     client: {
-        host: 'localhost',
-        port: '3306',
+        host: '139.224.232.41',
+        port: '8066',
         user: 'root',
-        password: 'admin',
+        password: 'blaoer',
         database: 'blaoer',
     },
     app: true,

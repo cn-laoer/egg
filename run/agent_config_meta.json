@@ -193,13 +193,16 @@
       "egg-bin": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js",
       "egg-cors": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js",
       "egg-mysql": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js",
+      "egg-scripts": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js",
       "egg-view-nunjucks": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js",
       "i": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js",
       "ms": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js"
     },
     "scripts": {
       "dev": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js",
-      "test": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js"
+      "test": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js",
+      "start": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js",
+      "stop": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "baseDir": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js",

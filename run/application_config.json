@@ -199,10 +199,10 @@
       "app": true,
       "agent": false,
       "client": {
-        "host": "localhost",
-        "port": "3306",
+        "host": "139.224.232.41",
+        "port": "8066",
         "user": "root",
-        "password": "<String len: 5>",
+        "password": "<String len: 6>",
         "database": "blaoer"
       }
     },
@@ -230,13 +230,16 @@
         "egg-bin": "^4.13.0",
         "egg-cors": "^2.2.0",
         "egg-mysql": "^3.0.0",
+        "egg-scripts": "^2.11.0",
         "egg-view-nunjucks": "^2.2.0",
         "i": "^0.3.6",
         "ms": "^2.1.2"
       },
       "scripts": {
         "dev": "egg-bin dev",
-        "test": "egg-bin test"
+        "test": "egg-bin test",
+        "start": "egg-scripts start --daemon",
+        "stop": "egg-scripts stop"
       }
     },
     "baseDir": "E:\\blaoer\\egg",

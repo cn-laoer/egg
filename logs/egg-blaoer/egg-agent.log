@@ -1644,3 +1644,33 @@ hostname: PC-201803121836
 2019-08-21 09:46:47,523 INFO 6640 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"E:\\blaoer\\egg\\app\\service\\react.js","stat":{"dev":1241895195,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":562949953467571,"size":3316,"atimeMs":1566292466424.191,"mtimeMs":1566352007520.6687,"ctimeMs":1566352007520.6687,"birthtimeMs":1566292466424.191,"atime":"2019-08-20T09:14:26.424Z","mtime":"2019-08-21T01:46:47.521Z","ctime":"2019-08-21T01:46:47.521Z","birthtime":"2019-08-20T09:14:26.424Z"},"remove":false,"isDirectory":false,"isFile":true}
 2019-08-21 09:46:47,528 INFO 6640 [egg-watcher] Recieved a change event from eventSource: {"event":"change","path":"E:\\blaoer\\egg\\app\\service\\react.js","stat":{"dev":1241895195,"mode":33206,"nlink":1,"uid":0,"gid":0,"rdev":0,"ino":562949953467571,"size":3316,"atimeMs":1566292466424.191,"mtimeMs":1566352007520.6687,"ctimeMs":1566352007520.6687,"birthtimeMs":1566292466424.191,"atime":"2019-08-20T09:14:26.424Z","mtime":"2019-08-21T01:46:47.521Z","ctime":"2019-08-21T01:46:47.521Z","birthtime":"2019-08-20T09:14:26.424Z"},"remove":false,"isDirectory":false,"isFile":true}
 2019-08-21 09:46:48,905 WARN 6640 [ClusterClient:Connection] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-08-22 09:30:00,672 INFO 6428 [egg:logger] init all loggers with options: {"dir":"E:\\blaoer\\egg\\logs\\egg-blaoer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-blaoer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-08-22 09:30:00,688 INFO 6428 [egg:core] dump config after load, 16ms
+2019-08-22 09:30:00,743 INFO 6428 [egg-watcher] Start watching: ["E:\\blaoer\\egg\\app","E:\\blaoer\\egg\\config","E:\\blaoer\\egg\\mocks","E:\\blaoer\\egg\\mocks_proxy","E:\\blaoer\\egg\\app.js"]
+2019-08-22 09:30:00,743 INFO 6428 [egg-watcher] Start watching: "E:\\blaoer\\egg\\app"
+2019-08-22 09:30:00,744 INFO 6428 [egg-watcher] Start watching: "E:\\blaoer\\egg\\config"
+2019-08-22 09:30:00,744 INFO 6428 [egg-watcher] Start watching: "E:\\blaoer\\egg\\mocks"
+2019-08-22 09:30:00,744 INFO 6428 [egg-watcher] Start watching: "E:\\blaoer\\egg\\mocks_proxy"
+2019-08-22 09:30:00,744 INFO 6428 [egg-watcher] Start watching: "E:\\blaoer\\egg\\app.js"
+2019-08-22 09:30:00,745 INFO 6428 [egg-watcher:agent] watcher start success
+2019-08-22 09:30:00,765 INFO 6428 [egg:core] dump config after ready, 3ms
+2019-08-22 09:31:27,624 INFO 8028 [egg:logger] init all loggers with options: {"dir":"E:\\blaoer\\egg\\logs\\egg-blaoer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-blaoer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-08-22 09:31:27,624 INFO 8028 [egg:core] dump config after load, 0ms
+2019-08-22 09:31:27,671 INFO 8028 [egg-watcher] Start watching: ["E:\\blaoer\\egg\\app","E:\\blaoer\\egg\\config","E:\\blaoer\\egg\\mocks","E:\\blaoer\\egg\\mocks_proxy","E:\\blaoer\\egg\\app.js"]
+2019-08-22 09:31:27,671 INFO 8028 [egg-watcher] Start watching: "E:\\blaoer\\egg\\app"
+2019-08-22 09:31:27,671 INFO 8028 [egg-watcher] Start watching: "E:\\blaoer\\egg\\config"
+2019-08-22 09:31:27,671 INFO 8028 [egg-watcher] Start watching: "E:\\blaoer\\egg\\mocks"
+2019-08-22 09:31:27,671 INFO 8028 [egg-watcher] Start watching: "E:\\blaoer\\egg\\mocks_proxy"
+2019-08-22 09:31:27,671 INFO 8028 [egg-watcher] Start watching: "E:\\blaoer\\egg\\app.js"
+2019-08-22 09:31:27,671 INFO 8028 [egg-watcher:agent] watcher start success
+2019-08-22 09:31:27,687 INFO 8028 [egg:core] dump config after ready, 0ms
+2019-08-22 13:44:13,634 INFO 11800 [egg:logger] init all loggers with options: {"dir":"E:\\blaoer\\egg\\logs\\egg-blaoer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-blaoer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-08-22 13:44:13,645 INFO 11800 [egg:core] dump config after load, 5ms
+2019-08-22 13:44:13,718 INFO 11800 [egg-watcher] Start watching: ["E:\\blaoer\\egg\\app","E:\\blaoer\\egg\\config","E:\\blaoer\\egg\\mocks","E:\\blaoer\\egg\\mocks_proxy","E:\\blaoer\\egg\\app.js"]
+2019-08-22 13:44:13,718 INFO 11800 [egg-watcher] Start watching: "E:\\blaoer\\egg\\app"
+2019-08-22 13:44:13,719 INFO 11800 [egg-watcher] Start watching: "E:\\blaoer\\egg\\config"
+2019-08-22 13:44:13,719 INFO 11800 [egg-watcher] Start watching: "E:\\blaoer\\egg\\mocks"
+2019-08-22 13:44:13,719 INFO 11800 [egg-watcher] Start watching: "E:\\blaoer\\egg\\mocks_proxy"
+2019-08-22 13:44:13,719 INFO 11800 [egg-watcher] Start watching: "E:\\blaoer\\egg\\app.js"
+2019-08-22 13:44:13,719 INFO 11800 [egg-watcher:agent] watcher start success
+2019-08-22 13:44:13,738 INFO 11800 [egg:core] dump config after ready, 6ms

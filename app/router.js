@@ -14,4 +14,5 @@ module.exports = app => {
     router.get('/react/add', controller.react.add);
     router.get('/react/update', controller.react.update);
     router.get('/react/del', controller.react.del);
+    router.post('/login', controller.login.index);
 }

@@ -9,7 +9,7 @@ class NewsService extends Service {
         const msg = await this.app.mysql.select('news');
         // 按条件查询
         // const msg = await this.app.mysql.select('news', {
-            // where: {status:1}
+        //     where: {status:1}
         // })
         // 查询一条
         // const msg = await this.app.mysql.get('news', {id: 1});

@@ -196,7 +196,8 @@
       "egg-scripts": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js",
       "egg-view-nunjucks": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js",
       "i": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js",
-      "ms": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js"
+      "ms": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js",
+      "utility": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js"
     },
     "scripts": {
       "dev": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js",

@@ -1,5 +1,5 @@
 const Service = require('egg').Service;
-const utility = require("utility");
+// const utility = require("utility");
 
 class LoginService extends Service {
     async index(datas) {
@@ -7,8 +7,8 @@ class LoginService extends Service {
         let data = {};
         try {
             const msg = await this.app.mysql.get('user', {username:loginData.username});
-            let md5_password = utility.md5('lao'+msg.password+'er');
-            if (msg&&md5_password===loginData.password) {
+            // let md5_password = utility.md5('lao'+msg.password+'er');
+            if (msg&&msg.password===loginData.password) {
                 data = {
                     code: 1,
                     data: '',

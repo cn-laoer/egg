@@ -4,6 +4,7 @@ const ms = require('ms');
 class GoodsController extends Controller {
     async list() {
         const ctx = this.ctx;
+        const msg = ctx.query;
         // 设置cookie
         ctx.cookies.set('cookie',this.config.keys,{
             httpOnly: false,
@@ -12,7 +13,15 @@ class GoodsController extends Controller {
         });
         ctx.session.user = 'blaoer';
         ctx.session.maxAge = ms('2d');
-        const newsList = await ctx.service.goods.list();
+        const newsList = await ctx.service.goods.list(msg.page,msg.pageSize,msg.name,msg.type);
+        // await ctx.render('news/list.tpl', newsList);
+        ctx.body = newsList;
+    }
+
+    async detail() {
+        const ctx = this.ctx;
+        const msg = ctx.query;
+        const newsList = await ctx.service.goods.detail(msg.code);
         // await ctx.render('news/list.tpl', newsList);
         ctx.body = newsList;
     }

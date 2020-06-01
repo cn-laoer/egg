@@ -18,5 +18,6 @@ module.exports = app => {
     router.get('/goods/add', controller.goods.add);
     router.get('/goods/update', controller.goods.update);
     router.get('/goods/del', controller.goods.del);
+    router.get('/goods/detail', controller.goods.detail);
     router.post('/login', controller.login.index);
 }

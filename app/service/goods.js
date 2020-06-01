@@ -1,16 +1,41 @@
 const Service = require('egg').Service;
 
 class GoodsService extends Service {
-    async list(page = 1) {
+    async list(pages, pageSizes,names,types) {
+        let page = pages!=null?pages:1;
+        let pageSize = pageSizes!=null?pageSizes:10;
+        let name = names!=''?String(names):'';
+        let type = types>0?types:'';
         // 设置cookie
         const ctx = this.ctx;
+        let pageSql = `select count('id') from goods_list`;
         // 按条件查询
-        const data = await this.app.mysql.select('goods_list', {
-            where: {delete:0}
-        })
+        let dataSql = '';
+        if (name!=''&&type=='') {
+            dataSql = "select * from goods_list where 'delete' = 0 and `goods_name` like '%"+name+"%' limit ?,?";
+            pageSql = "select count('id') from goods_list where 'delete' = 0 and `goods_name` like '%"+name+"%'";
+        } else if (name==''&&type!='') {
+            dataSql = "select * from goods_list where 'delete' = 0 and `type` = "+type+" limit ?,?";
+            pageSql = "select count('id') from goods_list where 'delete' = 0 and `type` = "+type;
+        } else if (name!=''&&type!='') {
+            dataSql = "select * from goods_list where 'delete' = 0 and `goods_name` like '%"+name+"%' and `type` = "+type+" limit ?,?";
+            pageSql = "select count('id') from goods_list where 'delete' = 0 and `goods_name` like '%"+name+"%' and `type` = "+type;
+        } else if (name==''&&type=='') {
+            dataSql = `select * from goods_list where 'delete' = 0 limit ?,?`;
+        }
+        let data = await this.app.mysql.query(dataSql, [(page-1)*pageSize,Number(pageSize)]);
+        let totalNum = await this.app.mysql.query(pageSql);
+        // const data = await this.app.mysql.select('goods_list', {
+        //     where: {delete:0},
+        //     limit: pageSize, // 返回数据量
+        //     offset: (page-1)*pageSize, // 数据偏移量
+        // })
         let dataList = {
             code: 0,
-            msg: 'success',
+            total: totalNum[0]["count('id')"],
+            msg: "success",
+            pageSize: pageSize,
+            page: page,
             data
         };
         if (!dataList.data.length&&!dataList.data.length>0) {
@@ -19,6 +44,17 @@ class GoodsService extends Service {
                 'data': null
             }
         }
+        return dataList;
+    }
+
+    async detail(code) {
+        // 设置cookie
+        const ctx = this.ctx;
+        // 查询一条
+        const data = await this.app.mysql.get('goods_list', {bar_code: code});
+        let dataList = {
+            data
+        };
         return dataList;
     }
 

@@ -91,10 +91,11 @@
     "credentials": "E:\\blaoer\\egg\\config\\config.default.js"
   },
   "session": {
-    "maxAge": "E:\\blaoer\\egg\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "E:\\blaoer\\egg\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "E:\\blaoer\\egg\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "E:\\blaoer\\egg\\node_modules\\egg-session\\config\\config.default.js"
+    "key": "E:\\blaoer\\egg\\config\\config.default.js",
+    "maxAge": "E:\\blaoer\\egg\\config\\config.default.js",
+    "httpOnly": "E:\\blaoer\\egg\\config\\config.default.js",
+    "encrypt": "E:\\blaoer\\egg\\config\\config.default.js",
+    "renew": "E:\\blaoer\\egg\\config\\config.default.js"
   },
   "helper": {
     "shtml": "E:\\blaoer\\egg\\node_modules\\egg-security\\config\\config.default.js"

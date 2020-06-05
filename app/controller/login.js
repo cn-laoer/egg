@@ -5,10 +5,11 @@ class LoginController extends Controller {
     async index() {
         const ctx = this.ctx;
         // 设置cookie
-        ctx.cookies.set('cookie',this.config.keys,{
-            httpOnly: false,
-            signed: false,
-            overwrite: true
+        ctx.cookies.set('loginCookie',this.config.keys,{
+            httpOnly: true,
+            // signed: false,
+            encrypt: true,
+            // overwrite: true
         });
         ctx.session.user = 'blaoer';
         ctx.session.maxAge = ms('2d');

@@ -79,3 +79,10 @@ exports.cors = {
     allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH',
     credentials: true
 };
+exports.session = {
+    key:'SESSION_ID',  //key名字
+    maxAge:1000*60*24,
+    httpOnly:true,
+    encrypt:true, //加密 
+    renew:true //最大时间范围内，刷新，自动增加最大时间
+}

@@ -8,6 +8,10 @@ class GoodsService extends Service {
         let type = types>0?types:'';
         // 设置cookie
         const ctx = this.ctx;
+        console.log(JSON.stringify(this.ctx.cookies.get('loginCookie',{
+            encrypt: true,
+        }))+'---')
+            // JSON.stringify(ctx.session)+'---'+ctx.session.maxAge)
         let pageSql = `select count('id') from goods_list`;
         // 按条件查询
         let dataSql = '';

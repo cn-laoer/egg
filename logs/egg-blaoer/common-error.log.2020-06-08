@@ -1,0 +1,11 @@
+2020-06-08 09:25:09,808 ERROR 6988 nodejs.EPERMError: Error watching file for changes: EPERM
+    at FSEvent.FSWatcher._handle.onchange (fs.js:1359:9)
+errno: "EPERM"
+code: "EPERM"
+syscall: "Error watching file for changes:"
+filename: null
+dir: "E:\\blaoer\\egg\\app\\controller\\add.js"
+name: "EPERMError"
+pid: 6988
+hostname: PC-201803121836
+

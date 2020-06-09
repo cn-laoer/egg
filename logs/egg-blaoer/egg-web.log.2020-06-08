@@ -1,0 +1,21 @@
+2020-06-08 00:00:01,038 INFO 9032 [egg-logrotator] app logger reload: got log-reload message
+2020-06-08 04:30:00,005 INFO 9032 [-/127.0.0.1/-/0ms SCHEDULE /__schedule?path=E:\blaoer\egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] start clean tmpdir: "C:\\Users\\1398\\AppData\\Local\\Temp\\egg-multipart-tmp\\egg-blaoer"
+2020-06-08 04:30:00,007 INFO 9032 [-/127.0.0.1/-/2ms SCHEDULE /__schedule?path=E:\blaoer\egg\node_modules\egg-multipart\app\schedule\clean_tmpdir.js&type=worker&cron=0%2030%204%20*%20*%20*&immediate=false] [egg-multipart:CleanTmpdir] end
+2020-06-08 09:25:30,403 INFO 10232 [egg:logger] init all loggers with options: {"dir":"E:\\blaoer\\egg\\logs\\egg-blaoer","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-blaoer-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-06-08 09:25:30,440 INFO 10232 [egg-multipart] stream mode enable
+2020-06-08 09:25:30,442 INFO 10232 [egg-mysql] connecting root@139.224.232.41:8066/blaoer
+2020-06-08 09:25:31,652 INFO 10232 [egg-static] starting static serve /public/ -> E:\blaoer\egg\app\public
+2020-06-08 09:25:31,658 INFO 10232 [egg-security] use methodnoallow middleware
+2020-06-08 09:25:31,660 INFO 10232 [egg-security] use noopen middleware
+2020-06-08 09:25:31,661 INFO 10232 [egg-security] use nosniff middleware
+2020-06-08 09:25:31,662 INFO 10232 [egg-security] use xssProtection middleware
+2020-06-08 09:25:31,663 INFO 10232 [egg-security] use xframe middleware
+2020-06-08 09:25:31,664 INFO 10232 [egg-security] use dta middleware
+2020-06-08 09:25:31,664 INFO 10232 [egg-security] compose 6 middlewares into one security middleware
+2020-06-08 09:25:31,697 INFO 10232 [egg:core] dump config after load, 8ms
+2020-06-08 09:25:31,712 INFO 10232 [egg-watcher:application] watcher start success
+2020-06-08 09:25:31,817 INFO 10232 [egg-mysql] instance[0] status OK, rds currentTime: Mon Jun 08 2020 01:27:13 GMT+0800 (中国标准时间)
+2020-06-08 09:25:31,817 INFO 10232 [egg:core] dump config after ready, 0ms
+2020-06-09 00:00:01,547 INFO 10232 [egg-logrotator] clean all log before 31 days
+2020-06-09 00:00:01,628 INFO 10232 [egg-logrotator] broadcast log-reload
+2020-06-09 00:00:01,629 INFO 10232 [egg-logrotator] rotate files success by DayRotator, files ["E:\\blaoer\\egg\\logs\\egg-blaoer\\common-error.log -> E:\\blaoer\\egg\\logs\\egg-blaoer\\common-error.log.2020-06-08","E:\\blaoer\\egg\\logs\\egg-blaoer\\egg-blaoer-web.log -> E:\\blaoer\\egg\\logs\\egg-blaoer\\egg-blaoer-web.log.2020-06-08","E:\\blaoer\\egg\\logs\\egg-blaoer\\egg-web.log -> E:\\blaoer\\egg\\logs\\egg-blaoer\\egg-web.log.2020-06-08","E:\\blaoer\\egg\\logs\\egg-blaoer\\egg-schedule.log -> E:\\blaoer\\egg\\logs\\egg-blaoer\\egg-schedule.log.2020-06-08","E:\\blaoer\\egg\\logs\\egg-blaoer\\egg-agent.log -> E:\\blaoer\\egg\\logs\\egg-blaoer\\egg-agent.log.2020-06-08"]

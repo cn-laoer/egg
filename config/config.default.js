@@ -7,6 +7,8 @@ exports.view = {
     },
 };
 
+exports.uploadUrl = 'app/public/img/upload';
+
 exports.news = {
     pageSize: 5,
     serviceUrl: 'https://hacker-news.firebaseio.com/v0',

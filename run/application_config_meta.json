@@ -10,6 +10,7 @@
     "defaultExtension": "E:\\blaoer\\egg\\node_modules\\egg-view\\config\\config.default.js",
     "defaultViewEngine": "E:\\blaoer\\egg\\node_modules\\egg-view\\config\\config.default.js"
   },
+  "uploadUrl": "E:\\blaoer\\egg\\config\\config.default.js",
   "news": {
     "pageSize": "E:\\blaoer\\egg\\config\\config.default.js",
     "serviceUrl": "E:\\blaoer\\egg\\config\\config.default.js"
@@ -197,7 +198,11 @@
       "egg-scripts": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js",
       "egg-view-nunjucks": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js",
       "i": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js",
+      "mkdir": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js",
+      "mkdirp": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js",
       "ms": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js",
+      "pump": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js",
+      "silly-datetime": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js",
       "utility": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js"
     },
     "scripts": {

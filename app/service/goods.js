@@ -70,11 +70,13 @@ class GoodsService extends Service {
             const addSuccess = result.affectedRows === 1;
             if (addSuccess) {
                 data = {
+                    code: 0,
                     data: true,
                     msg: '商品添加成功！'
                 }
             } else {
                 data = {
+                    code: 1,
                     data: false,
                     msg: '商品添加失败'
                 }
@@ -97,11 +99,13 @@ class GoodsService extends Service {
             const updateSuccess = result.affectedRows === 1;
             if (updateSuccess) {
                 data = {
+                    code: 0,
                     data: true,
                     msg: '商品信息修改成功!'
                 }
             } else {
                 data = {
+                    code: 1,
                     data: false,
                     msg: '商品信息修改失败！'
                 }
@@ -123,11 +127,13 @@ class GoodsService extends Service {
             const addSuccess = result.affectedRows === 1;
             if (addSuccess) {
                 data = {
+                    code: 0,
                     data: true,
                     msg: '商品删除成功！'
                 }
             } else {
                 data = {
+                    code: 0,
                     data: false,
                     msg: '商品删除失败！'
                 }

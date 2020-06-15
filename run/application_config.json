@@ -22,7 +22,7 @@
       "csrf": {
         "enable": false,
         "useSession": false,
-        "ignoreJSON": true,
+        "ignoreJSON": false,
         "cookieName": "csrfToken",
         "sessionName": "csrfToken",
         "headerName": "x-csrf-token",
@@ -200,10 +200,10 @@
       "app": true,
       "agent": false,
       "client": {
-        "host": "139.224.232.41",
-        "port": "8066",
+        "host": "localhost",
+        "port": "3306",
         "user": "root",
-        "password": "<String len: 6>",
+        "password": "<String len: 5>",
         "database": "blaoer"
       }
     },

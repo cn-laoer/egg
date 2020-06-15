@@ -10,6 +10,7 @@
     "defaultExtension": "E:\\blaoer\\egg\\node_modules\\egg-view\\config\\config.default.js",
     "defaultViewEngine": "E:\\blaoer\\egg\\node_modules\\egg-view\\config\\config.default.js"
   },
+  "uploadUrl": "E:\\blaoer\\egg\\config\\config.default.js",
   "news": {
     "pageSize": "E:\\blaoer\\egg\\config\\config.default.js",
     "serviceUrl": "E:\\blaoer\\egg\\config\\config.default.js"
@@ -91,10 +92,11 @@
     "credentials": "E:\\blaoer\\egg\\config\\config.default.js"
   },
   "session": {
-    "maxAge": "E:\\blaoer\\egg\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "E:\\blaoer\\egg\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "E:\\blaoer\\egg\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "E:\\blaoer\\egg\\node_modules\\egg-session\\config\\config.default.js"
+    "key": "E:\\blaoer\\egg\\config\\config.default.js",
+    "maxAge": "E:\\blaoer\\egg\\config\\config.default.js",
+    "httpOnly": "E:\\blaoer\\egg\\config\\config.default.js",
+    "encrypt": "E:\\blaoer\\egg\\config\\config.default.js",
+    "renew": "E:\\blaoer\\egg\\config\\config.default.js"
   },
   "helper": {
     "shtml": "E:\\blaoer\\egg\\node_modules\\egg-security\\config\\config.default.js"
@@ -196,7 +198,11 @@
       "egg-scripts": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js",
       "egg-view-nunjucks": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js",
       "i": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js",
+      "mkdir": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js",
+      "mkdirp": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js",
       "ms": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js",
+      "pump": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js",
+      "silly-datetime": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js",
       "utility": "E:\\blaoer\\egg\\node_modules\\egg\\config\\config.default.js"
     },
     "scripts": {

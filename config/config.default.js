@@ -24,29 +24,29 @@ exports.robot = {
 };
 // mysql
 // localhost
-// exports.mysql = {
-//     client: {
-//         host: 'localhost',
-//         port: '3306',
-//         user: 'root',
-//         password: 'admin',
-//         database: 'blaoer',
-//     },
-//     app: true,
-//     agent: false
-// };
-// on line
 exports.mysql = {
     client: {
-        host: '139.224.232.41',
-        port: '8066',
+        host: 'localhost',
+        port: '3306',
         user: 'root',
-        password: 'blaoer',
+        password: 'admin',
         database: 'blaoer',
     },
     app: true,
     agent: false
 };
+// on line
+// exports.mysql = {
+//     client: {
+//         host: '139.224.232.41',
+//         port: '8066',
+//         user: 'root',
+//         password: 'blaoer',
+//         database: 'blaoer',
+//     },
+//     app: true,
+//     agent: false
+// };
 // 配置错误页面
 exports.onerror = {
     // errorPageUrl: '../app/view/err/index.html'
@@ -67,13 +67,13 @@ exports.onerror = {
 
 // };
 
+// domainWhiteList: ['http://localhost:7001']
 // 跨域开启
 exports.security = {
-    csrf: {
+    csrf:{
         enable: false,
-        ignoreJSON: true
+        ignoreJSON: false
     },
-    // domainWhiteList: ['http://localhost:7001']
     domainWhiteList: ['*']
 };
 exports.cors = {

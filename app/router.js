@@ -15,7 +15,7 @@ module.exports = app => {
     router.get('/react/update', controller.react.update);
     router.get('/react/del', controller.react.del);
     router.get('/goods', controller.goods.list);
-    router.get('/goods/add', controller.goods.add);
+    router.post('/goods/add', controller.goods.add);
     router.get('/goods/update', controller.goods.update);
     router.get('/goods/del', controller.goods.del);
     router.get('/goods/detail', controller.goods.detail);

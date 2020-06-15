@@ -29,11 +29,13 @@ class GoodsController extends Controller {
     async add() {
         const ctx = this.ctx;
         const author = ctx.session.userId;
-        const msg = ctx.query;
+        // const msg = ctx.query;
+        const msg = ctx.request.body;
         let data = {};
-        data.id = Number(msg.id);
-        data.name = msg.name;
-        data.url = msg.url;
+        // data.id = Number(msg.id);
+        // data.name = msg.name;
+        // data.url = msg.url;
+        data = msg;
         const cookie = ctx.cookies._keys[0]===this.config.keys?true:false;
         if (cookie) {
             const req = await ctx.service.goods.add(data);

@@ -52,10 +52,11 @@ class GoodsController extends Controller {
         const that = this;
         const ctx = this.ctx;
         const author = ctx.session.userId;
+        const msg = ctx.request.body;
         // const cookie = ctx.cookies.get('cookie')===that.config.keys?true:false;
         const cookie = ctx.cookies._keys[0]===that.config.keys?true:false;
         if (cookie) {
-            const req = await ctx.service.goods.update(ctx.query);
+            const req = await ctx.service.goods.update(msg);
             ctx.body = req;
         } else {
             ctx.body = {

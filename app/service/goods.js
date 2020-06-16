@@ -8,24 +8,24 @@ class GoodsService extends Service {
         let type = types>0?types:'';
         // 设置cookie
         const ctx = this.ctx;
-        console.log(JSON.stringify(this.ctx.cookies.get('loginCookie',{
-            encrypt: true,
-        }))+'---')
+        // console.log(JSON.stringify(this.ctx.cookies.get('loginCookie',{
+        //     encrypt: true,
+        // }))+'---')
             // JSON.stringify(ctx.session)+'---'+ctx.session.maxAge)
         let pageSql = `select count('id') from goods_list`;
         // 按条件查询
         let dataSql = '';
         if (name!=''&&type=='') {
-            dataSql = "select * from goods_list where 'delete' = 0 and `goods_name` like '%"+name+"%' limit ?,?";
-            pageSql = "select count('id') from goods_list where 'delete' = 0 and `goods_name` like '%"+name+"%'";
+            dataSql = "select * from goods_list where 'is_del' = 0 and `goods_name` like '%"+name+"%' limit ?,?";
+            pageSql = "select count('id') from goods_list where 'is_del' = 0 and `goods_name` like '%"+name+"%'";
         } else if (name==''&&type!='') {
-            dataSql = "select * from goods_list where 'delete' = 0 and `type` = "+type+" limit ?,?";
-            pageSql = "select count('id') from goods_list where 'delete' = 0 and `type` = "+type;
+            dataSql = "select * from goods_list where 'is_del' = 0 and `type` = "+type+" limit ?,?";
+            pageSql = "select count('id') from goods_list where 'is_del' = 0 and `type` = "+type;
         } else if (name!=''&&type!='') {
-            dataSql = "select * from goods_list where 'delete' = 0 and `goods_name` like '%"+name+"%' and `type` = "+type+" limit ?,?";
-            pageSql = "select count('id') from goods_list where 'delete' = 0 and `goods_name` like '%"+name+"%' and `type` = "+type;
+            dataSql = "select * from goods_list where 'is_del' = 0 and `goods_name` like '%"+name+"%' and `type` = "+type+" limit ?,?";
+            pageSql = "select count('id') from goods_list where 'is_del' = 0 and `goods_name` like '%"+name+"%' and `type` = "+type;
         } else if (name==''&&type=='') {
-            dataSql = `select * from goods_list where 'delete' = 0 limit ?,?`;
+            dataSql = `select * from goods_list where 'is_del' = 0 limit ?,?`;
         }
         let data = await this.app.mysql.query(dataSql, [(page-1)*pageSize,Number(pageSize)]);
         let totalNum = await this.app.mysql.query(pageSql);
@@ -57,6 +57,8 @@ class GoodsService extends Service {
         // 查询一条
         const data = await this.app.mysql.get('goods_list', {bar_code: code});
         let dataList = {
+            code: 0,
+            message: 'success',
             data
         };
         return dataList;
